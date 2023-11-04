@@ -2,6 +2,8 @@
 
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\PlayerController;
+use App\Http\Controllers\HelperController;
 
 /*
 |--------------------------------------------------------------------------
@@ -19,3 +21,5 @@ Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
 });
 
 Route::resource('players', PlayerController::class);
+
+Route::get('player-positions', [HelperController::class, 'getAllPlayerPositions']);
