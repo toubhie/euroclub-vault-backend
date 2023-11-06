@@ -25,7 +25,7 @@ class PositionsSeeder extends Seeder
         ['name' => 'DM', 'description' => 'Defensive Midfielder'],
         ['name' => 'LB', 'description' => 'Left Back'],
         ['name' => 'RB', 'description' => 'Right Back'],
-        ['name' => 'CB', 'description' => 'Right Back'],
+        ['name' => 'CB', 'description' => 'Central Back'],
         ['name' => 'GK', 'description' => 'Goalkeeper']
     ];
 
