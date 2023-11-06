@@ -18,7 +18,7 @@ return new class extends Migration
             $table->integer('age');
             $table->string('nationality');
             $table->string('position');
-            $table->decimal('player_value', 10, 2);
+            $table->decimal('player_value', 20, 2);
             $table->timestamps();
         });
     }

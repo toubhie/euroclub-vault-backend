@@ -4,6 +4,7 @@ use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\PlayerController;
 use App\Http\Controllers\HelperController;
+use App\Http\Controllers\WikiController;
 
 /*
 |--------------------------------------------------------------------------
@@ -23,3 +24,6 @@ Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
 Route::resource('players', PlayerController::class);
 
 Route::get('player-positions', [HelperController::class, 'getAllPlayerPositions']);
+Route::post('get-wikipedia-info', [WikiController::class, 'getWikipediaInfo']);
+
+Route::post('/players/filter', [PlayerController::class, 'filter']);
