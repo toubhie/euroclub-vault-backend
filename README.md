@@ -89,10 +89,3 @@ To run tests, run the following command
 
 - [Tobiloba Williams](https://github.com/toubhie)
 
-
-## Roadmap
-
-- Additional browser support
-
-- Add more integrations
-
