@@ -2,7 +2,7 @@
 ![Logo](https://i.ibb.co/smP8gBr/Screenshot-2023-11-06-at-14-52-11.png)
 
 
-# EuroClub Vault - Performativ Assessment (Backend)
+# EuroClub Vault (Backend)
 
 The EuroClub Vault backend service, developed using the Laravel framework, serves as the backbone of the application, handling critical functions such as data storage, and API interactions with the front end. It offers a robust and secure foundation, allowing users to create, update, and retrieve player profiles, manage player positions, and filter players based on various attributes. In addition to its core features, the backend integrates third-party services, including Wikipedia, to enrich player profiles with comprehensive information, including biographies, career highlights, and images. This integration enhances the user experience by providing a more in-depth understanding of each player's background. Overall, the Euroclub Vault backend embodies the versatility and connectivity of modern web applications, delivering a comprehensive platform for football enthusiasts and analysts alike.
  
